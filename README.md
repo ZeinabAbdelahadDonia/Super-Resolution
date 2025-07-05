@@ -33,7 +33,7 @@ Super Resolution Using Different Deep Learning Architectures
 - **Notebook:** `SRCNNx2.ipynb`  
 - **Model Weights:** `srcnnx2.pth`  
 - **Inference Examples (for comparison):** `SRCNNx2_to compare`
-- **Inference Examples (results): ** `SRCNNx2_Results`
+- **Inference Examples (results):** `SRCNNx2_Results`
 
 -----------------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ Super Resolution Using Different Deep Learning Architectures
 - **Notebook:** `SRCNNx2HT.ipynb`  
 - **Model Weights:** `srcnnx2ht.pth`  
 - **Inference Examples (for comparison):** `for comparison`
-- **Inference Examples (results): ** `Results`
+- **Inference Examples (results):** `Results`
 
 -----------------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ Super Resolution Using Different Deep Learning Architectures
 - **Notebook:** `SRCNNx4.ipynb`  
 - **Model Weights:** `srcnnx4.pth`  
 - **Inference Examples (for comparison):** `SRCNNx4_to compare`
-- **Inference Examples (results): ** `SRCNNx4_Results`
+- **Inference Examples (results):** `SRCNNx4_Results`
 
 -----------------------------------------------------------------------------------
 
