@@ -27,7 +27,7 @@ tensorboard --logdir=restormerTensorboard
 -----------------------------------------------------------------------------------
 
 ## 3️⃣ Restormer-Tiny-Attention (Global Multi-Head Attention)
-- **Model:** Restormer-Tiny with Global Multi-Head Attention 
+- **Model:** Restormer-Tiny with Global Multi-Head Attention  
 - **Notebook:** `Restormer-TinyAttention.ipynb`  
 - **Model Weights:** `restormerTinyAttention.pth`  
 - **TensorBoard Logs:** `Tensorboard`  
