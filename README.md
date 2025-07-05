@@ -19,7 +19,7 @@ Super Resolution Using Different Deep Learning Architectures
 - **TensorBoard Logs:** `restormerTensorboard`  
 - **Inference Examples (for comparison):** `Restormer-Tiny_to Compare`
 
-### ▶ How to Run TensorBoard
+### How to Run TensorBoard
 ```bash
 cd ./RestormerTiny
 tensorboard --logdir=restormerTensorboard
@@ -33,7 +33,7 @@ tensorboard --logdir=restormerTensorboard
 - **TensorBoard Logs:** `Tensorboard`  
 - **Inference Examples (for comparison):** `for_comparison`
 
-### ▶ How to Run TensorBoard
+### How to Run TensorBoard
 ```bash
 cd ./Restormer-Tiny-attention
 tensorboard --logdir=Tensorboard
@@ -48,7 +48,7 @@ tensorboard --logdir=Tensorboard
 - **Inference Examples (for comparison):** `SRCNNx2_to compare`
 - **Inference Examples (results): ** `SRCNNx2_Results`
 
-### ▶ How to Run TensorBoard
+### How to Run TensorBoard
 ```bash
 cd ./SRCNNx2
 tensorboard --logdir=srcnnx2Tensorboard
@@ -63,7 +63,7 @@ tensorboard --logdir=srcnnx2Tensorboard
 - **Inference Examples (for comparison):** `for comparison`
 - **Inference Examples (results): ** `Results`
 
-### ▶ How to Run TensorBoard
+### How to Run TensorBoard
 ```bash
 cd ./SRCNNx2Hyyperparameter\ Tuning
 tensorboard --logdir=Tensorboard
@@ -78,7 +78,7 @@ tensorboard --logdir=Tensorboard
 - **Inference Examples (for comparison):** `SRCNNx4_to compare`
 - **Inference Examples (results): ** `SRCNNx4_Results`
 
-### ▶ How to Run TensorBoard
+### How to Run TensorBoard
 ```bash
 cd ./SRCNNx4
 tensorboard --logdir=srcnnx4Tensorboard
