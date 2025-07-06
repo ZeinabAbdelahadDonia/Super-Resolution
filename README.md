@@ -67,16 +67,16 @@ This project explores and compares multiple deep learning architectures for Sing
    - Layer 2: Non-linear mapping
    - Layer 3: Image reconstruction
      
-   Training Time: 93.35 min
-   Results: PSNR: 37.64 dB, SSIM: 0.9649
+ - Training Time: 93.35 min
+ - Results: PSNR: 37.64 dB, SSIM: 0.9649
   
 - **Hyperparameters:**
-    Epochs: 100
-    LR: 1e-4
-    Optimizer: Adam
-    Filters: 64
-    Scale: 2
-    Activation: ReLU
+    -Epochs: 100
+    -LR: 1e-4
+    -Optimizer: Adam
+    -Filters: 64
+    -Scale: 2
+    -Activation: ReLU
 
    
 -----------------------------------------------------------------------------------
@@ -87,6 +87,12 @@ This project explores and compares multiple deep learning architectures for Sing
 - **Model Weights:** `srcnnx2ht.pth`  
 - **Inference Examples (for comparison):** `for comparison`
 - **Inference Examples (results):** `Results`
+- **Details:**
+-  Training Time: 551.47 min
+-  Results: PSNR: 37.79 dB, SSIM: 0.9650
+- **Hyperparameters:**
+-  Optimizer: AdamW (Weight Decay: 1e-4)
+-  Filters: 128
 
 -----------------------------------------------------------------------------------
 
