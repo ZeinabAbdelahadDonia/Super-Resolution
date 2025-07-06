@@ -5,9 +5,7 @@ Super Resolution Using Different Deep Learning Architectures
 
 ## 1️⃣ ESRGAN
 - **Model:** ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks)  
-- **Notebook:** `ESRGAN.ipynb`  
-- **Discriminator Weights:** `esrgan_discriminator.pth`  
-- **Generator Weights:** `esrgan_generator.pth`  
+- **Notebook:** `ESRGAN.ipynb`   
 - **Inference Examples (for comparison):** `for_comaprison_ESRGAN`
 
 -----------------------------------------------------------------------------------
