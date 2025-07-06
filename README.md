@@ -3,23 +3,23 @@ Super Resolution Using Different Deep Learning Architectures
 
 This project explores and compares multiple deep learning architectures for Single Image Super-Resolution (SISR) on the DIV2K dataset. The implemented models include SRCNN, ESRGAN, and Restormer-Tiny with variations and hyperparameter tuning.
 
-📂 Dataset: DIV2K
+## 📂 Dataset: DIV2K
 
-The DIV2K dataset (DIVerse 2K resolution dataset) is widely used for image super-resolution tasks.
+- The DIV2K dataset (DIVerse 2K resolution dataset) is widely used for image super-resolution tasks.
 
-Image Resolution: ~2040x1080 pixels (PNG format)
+- Image Resolution: ~2040x1080 pixels (PNG format)
 
-Subsets:
+  **Subsets:**
 
-DIV2K_train_HR: 800 high-resolution training images
+    - DIV2K_train_HR: 800 high-resolution training images
 
-DIV2K_valid_HR: 100 high-resolution validation images
+    - DIV2K_valid_HR: 100 high-resolution validation images
 
-DIV2K_test_HR: 100 high-resolution test images
+    - DIV2K_test_HR: 100 high-resolution test images
 
-For consistency, bicubic downscaling (scale=4) was used to generate low-resolution (LR) images from high-resolution (HR) ones.
+  For consistency, bicubic downscaling (scale=4) was used to generate low-resolution (LR) images from high-resolution (HR) ones.
 
-🧠 Models and Results
+## 🧠 Models and Results
 
 1️⃣ SRCNN (Super-Resolution Convolutional Neural Network)
 
@@ -204,7 +204,17 @@ Efficient
 - **Model:** ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks)  
 - **Notebook:** `ESRGAN.ipynb`   
 - **Inference Examples (for comparison):** `for_comaprison_ESRGAN`
+- **Details:**
 
+    Generator: Residual-in-Residual Dense Blocks (RRDB)
+
+    Discriminator: Relativistic loss
+
+    Perceptual Loss: VGG19 (35th layer)
+
+    PSNR: 19–26 dB, SSIM: 0.4–0.65
+
+    **Notes:** Training was unstable; qualitative results were acceptable despite lower quantitative metrics.
 -----------------------------------------------------------------------------------
 
 ## 2️⃣ Restormer-Tiny (Local Window-Based Attention)
