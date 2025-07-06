@@ -142,7 +142,8 @@ This project explores and compares multiple deep learning architectures for Sing
 ----------------------------------------------------------------------------------
 
 ### 🎯 Purpose
-This in an individual part of a larger project aiming to compare the performance, training, and results of different deep learning architectures and variations. The findings of these architectures are compared with the architectures below.
+
+- This in an individual part of a larger project aiming to compare the performance, training, and results of different deep learning architectures and variations. The findings of these architectures are compared with the architectures below.
   - 
   -
   -
