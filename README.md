@@ -69,7 +69,7 @@ This project explores and compares multiple deep learning architectures for Sing
    - Global Multi-Head Attention
    - Training Time: 218.37 min
    - Results: PSNR: 38.88 dB, SSIM: 0.9688
-- **Hyperparameter:**
+- **Hyperparameters:**
    - Dim: 32
    - Num_blocks: 4
    - Num_heads: 2
@@ -135,9 +135,9 @@ This project explores and compares multiple deep learning architectures for Sing
 
 🚀 Highlights
 
-✅ Best Quantitative Results: Restormer-Tiny (Global Attention)
-✅ Best Qualitative Results: All models are proficient (despite low PSNR/SSIM in ESRGAN)
-✅ Fastest Training: SRCNNx2
+- ✅ Best Quantitative Results: Restormer-Tiny (Global Attention)
+- ✅ Best Qualitative Results: All models are proficient (despite low PSNR/SSIM in ESRGAN)
+- ✅ Fastest Training: SRCNNx2
 
 
 
