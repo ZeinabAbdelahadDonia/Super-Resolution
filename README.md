@@ -133,13 +133,20 @@ This project explores and compares multiple deep learning architectures for Sing
    -  Filters: 64
 ----------------------------------------------------------------------------------
 
-🚀 Highlights
+### 🚀 Highlights
 
 - ✅ Best Quantitative Results: Restormer-Tiny (Global Attention)
 - ✅ Best Qualitative Results: All models are proficient (despite low PSNR/SSIM in ESRGAN)
 - ✅ Fastest Training: SRCNNx2
 
+----------------------------------------------------------------------------------
 
+### 🎯 Purpose
+This in an individual part of a larger project aiming to compare the performance, training, and results of different deep learning architectures and variations. The findings of these architectures are compared with the architectures below.
+  - 
+  -
+  -
+  
 
 
 
